@@ -1,0 +1,11 @@
+C:\Users\Mike\source\repos\test\MyDatabaseProject\bin\Debug\MyDatabaseProject.dacpac
+C:\Users\Mike\source\repos\test\MyDatabaseProject\bin\Debug\MyDatabaseProject.dll
+C:\Users\Mike\source\repos\test\MyDatabaseProject\bin\Debug\MyDatabaseProject.pdb
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\MyDatabaseProject.sqlproj.AssemblyReference.cache
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\MyDatabaseProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\Model.xml
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\refactor.xml
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\postdeploy.sql
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\predeploy.sql
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\MyDatabaseProject.dll
+C:\Users\Mike\source\repos\test\MyDatabaseProject\obj\Debug\MyDatabaseProject.pdb
