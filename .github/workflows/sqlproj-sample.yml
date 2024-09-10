@@ -11,7 +11,7 @@ jobs:
     steps:
     # Checkout the code from the repository
     - name: Checkout repository
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
 
     # Install .NET Core SDK (specify the version you need)
     - name: Setup .NET Core SDK
