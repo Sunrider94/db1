@@ -9,12 +9,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # Checkout the code from the repository
+    - name: Checkout repository
     - uses: actions/checkout@v4
 
-    - name: Setup .NET
+    # Install .NET Core SDK (specify the version you need)
+    - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
+    
+    # Install required global .NET tools (SqlPackage and SQL Build Templates)
+    - name: Install SqlPackage CLI
+      run: dotnet tool install -g Microsoft.SqlPackage
+
+    - name: Install Microsoft.Build.Sql.Templates
+      run: dotnet new install Microsoft.Build.Sql.Templates
+
+      # Restore NuGet packages
+    - name: Restore NuGet packages
+      run: dotnet restore
 
     - name: Build
-      run: dotnet build /MyDatabaseProject.sqlproj
+      run: dotnet build MyDatabaseProject.sqlproj
